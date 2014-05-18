@@ -2,6 +2,11 @@ Chess_AI
 ========
 
 Snippets from my chess AI which implements the MiniMax algorithm along with some singular extensions for efficiency
+Files: 
+* <i>AI_Class.h:</i> header file for the AI class.
+* <i>Function_Implementations.cpp:</i> a few functions selected out of the full code to show how it works/ the algorithm
+* <i>boardState.h:</i> class that represents a chessboard, can have multiples of this as it is used for testing it is not the actual board
+* <i>Utility_Structures.h:</i> a few utility structures and an explanation of what they do
 
 The Algorithm
 ========
