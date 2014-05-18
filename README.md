@@ -28,9 +28,8 @@ The Algorithm
 
   If the state we are observing at the bottom level of the tree( i.e. depth == 0) is a state where something important happened, like a piece being captured, then we probably want to look down a few more levels to see if more pieces are taken/if we are still in a good position after the move.
   
-  Real example: 
-    
-  Our queen takes a pawn, but is now in the open and vulnerable to capture. If this move is the last one looked at then our value may be higher than it should be because we are now up a piece. However, if we look a few moves deeper we may see our queen being captures and now this is no longer a good move. This is why we implement quiescent search
+  <i>Example of QS being needed: </i>
+    Our queen takes a pawn, but is now in the open and vulnerable to capture. If this move is the last one looked at then our value may be higher than it should be because we are now up a piece. However, if we look a few moves deeper we may see our queen being captures and now this is no longer a good move. This is why we implement quiescent search
 
 <b>HT: History table</b>
   
