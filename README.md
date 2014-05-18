@@ -6,7 +6,7 @@ Snippets from my chess AI which implements the MiniMax algorithm along with some
 The Algorithm
 ========
 
-Full algorithm: TLHTQSID-ABDLMM: Time limited history table quiescent search iterative deepening - alpha beta depth limited mini max
+<b>Full algorithm:</b> TLHTQSID-ABDLMM: Time limited history table quiescent search iterative deepening - alpha beta depth limited mini max \n
 MM: Minimax
   http://en.wikipedia.org/wiki/Minimax
   Basically it takes recursively looks at our best move, then the enemies best move, then our best move, etc. 
